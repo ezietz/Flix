@@ -17,6 +17,11 @@
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
     [super setSelected:selected animated:animated];
+    
+    UIView *backgroundView = [[UIView alloc] init];
+    backgroundView.backgroundColor = UIColor.purpleColor;
+    self.selectedBackgroundView = backgroundView;
+    //self.selectionStyle = UITableViewCellSelectionStyleNone;
 
     // Configure the view for the selected state
 }
