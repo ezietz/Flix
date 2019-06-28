@@ -179,13 +179,13 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="foa-Te-PW6" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="70" y="1002"/>
+            <point key="canvasLocation" x="120" y="1144"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="qwd-Vf-3Rt">
             <objects>
                 <tabBarController id="51O-7P-Gbl" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="IVz-Lt-nPT">
+                    <tabBar key="tabBar" contentMode="scaleAspectFill" insetsLayoutMarginsFromSafeArea="NO" selectionIndicatorImage="superhero_tabbar_item" id="IVz-Lt-nPT">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -203,7 +203,7 @@
         <scene sceneID="eaQ-Eu-ty2">
             <objects>
                 <navigationController id="gFJ-Ep-Mcc" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Grid View" id="wTo-5n-oQE"/>
+                    <tabBarItem key="tabBarItem" title="Grid View" selectedImage="ticket_tabbar_icon" id="wTo-5n-oQE"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" id="nNv-o2-qtc">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -223,7 +223,7 @@
         <scene sceneID="9Av-v0-fAg">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="qQf-72-lGg" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Now Playing" id="BD7-uy-NkF"/>
+                    <tabBarItem key="tabBarItem" title="Now Playing" selectedImage="projector_tabbar_item" id="BD7-uy-NkF"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" barStyle="black" largeTitles="YES" id="uaU-Di-F2D">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
@@ -245,6 +245,11 @@
             <point key="canvasLocation" x="70" y="-356"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="projector_tabbar_item" width="21" height="25"/>
+        <image name="superhero_tabbar_item" width="21" height="23"/>
+        <image name="ticket_tabbar_icon" width="25" height="25"/>
+    </resources>
     <inferredMetricsTieBreakers>
         <segue reference="QvM-XP-vKv"/>
     </inferredMetricsTieBreakers>
