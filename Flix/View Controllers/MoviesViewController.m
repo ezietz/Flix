@@ -11,7 +11,7 @@
 #import "UIImageView+AFNetworking.h"
 #import "DetailsViewController.h"
 
-@interface MoviesViewController () <UITableViewDataSource, UITableViewDelegate>
+@interface MoviesViewController () <UITableViewDataSource, UITableViewDelegate, UISearchBarDelegate>
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic, strong) NSArray *movies;
@@ -29,8 +29,8 @@
     
     [self.activityIndicator startAnimating];
     
-    self.tableView.dataSource = self;
-    self.tableView.delegate = self;
+    self.tableView.dataSource = self; // data Source for tableview is the object that gives the table view the thing it'll display
+    self.tableView.delegate = self; // delegate responds to touch events, how many things to make
     self.searchBar.delegate = self;
 
     [self fetchMovies];

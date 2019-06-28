@@ -8,6 +8,9 @@
 
 #import "DetailsViewController.h"
 #import "UIImageView+AFNetworking.h"
+#import "WebViewController.h"
+#import "MoviesViewController.h"
+#import "MoviesGridViewController.h"
 
 
 @interface DetailsViewController ()
@@ -16,6 +19,7 @@
 @property (weak, nonatomic) IBOutlet UIImageView *posterView;
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 @property (weak, nonatomic) IBOutlet UILabel *synopsisLabel;
+@property (weak, nonatomic) IBOutlet UIButton *posterButton;
 
 @end
 
@@ -47,6 +51,30 @@
     [self.titleLabel sizeToFit];
     [self.synopsisLabel sizeToFit];
 }
+
+
+//- (IBAction)viewVideo:(id)sender {
+//    WebViewController *webViewController = [[WebViewController alloc] init];
+//
+//    webViewController.movie = self.movie;
+//    [self presentViewController:webViewController animated:YES completion:nil];
+////        [self performSegueWithIdentifier:@"first" sender:nil];
+//
+//    }
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+    if([segue.identifier  isEqual: @"first"]){
+        WebViewController *webViewController = [segue destinationViewController];
+    
+    webViewController.movie = self.movie;
+    
+}
+}
+
+
+
 
 /*
 #pragma mark - Navigation
