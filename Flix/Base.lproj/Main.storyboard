@@ -197,35 +197,6 @@
             <point key="canvasLocation" x="118.84057971014494" y="1143.75"/>
         </scene>
         <!--Web View Controller-->
-        <scene sceneID="LSc-YX-fTd">
-            <objects>
-                <viewController id="J6X-1u-Vas" customClass="WebViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="oy8-du-VnS">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AYm-BY-6eP" customClass="WebViewController">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <wkWebViewConfiguration key="configuration">
-                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
-                                    <wkPreferences key="preferences"/>
-                                </wkWebViewConfiguration>
-                            </wkWebView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="Wgs-rv-ycs"/>
-                    </view>
-                    <connections>
-                        <outlet property="webView" destination="AYm-BY-6eP" id="9I2-sn-BOA"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="9Wm-sI-Tsw" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="119" y="1892"/>
-        </scene>
-        <!--Web View Controller-->
         <scene sceneID="q9O-eY-GJw">
             <objects>
                 <viewController id="WVR-vf-9wp" customClass="WebViewController" sceneMemberID="viewController">
