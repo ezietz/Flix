@@ -23,7 +23,7 @@ The following **optional** features are implemented:
 - [X] Customize the selection effect of the cell.
 - [X] Customize the navigation bar.
 - [X] Customize the UI.
-- [ ] All images fade in as they are loading.
+- [X] All images fade in as they are loading.
 - [ ] User can view the large movie poster by tapping on a cell.
 - [ ] For the large poster, load the low resolution image first and then switch to the high resolution image when complete.
 
@@ -34,7 +34,7 @@ The following **additional** features are implemented:
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1. Having the images fade in as they load.
+1. Filtering images by different categories/genres.
 2. How to load different resolutions of images.
 
 ## Video Walkthrough
