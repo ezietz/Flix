@@ -28,7 +28,7 @@
     
     NSString *baseUrlString = @"https://api.themoviedb.org/3/movie/";
     NSString *movieID = [self.movie[@"id"] stringValue];
-    NSLog(@"%@ / %@", baseUrlString, movieID);
+   // NSLog(@"%@ / %@", baseUrlString, movieID);
     NSString *fullUrlString = [baseUrlString stringByAppendingString:movieID];
     NSString *apiKey = @"/videos?api_key=a07e22bc18f5cb106bfe4cc1f83ad8ed&language=en-US";
     NSString *urlString = [fullUrlString stringByAppendingString:apiKey];
