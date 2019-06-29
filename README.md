@@ -41,13 +41,14 @@ Please list two areas of the assignment you'd like to **discuss further with you
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://g.recordit.co/3WB5NVIlvY.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
+GIF created with [Recordit](http://recordit.co/).
 
 ## Notes
 
 Describe any challenges encountered while building the app.
+At first, it was hard for me to understand the segue that allows the viewer to see the movie trailer (once the user clicks the poster), but after reading the articles and discussing it with my pod, I was able to finally understand it and make it work!
 
 ## Credits
 
