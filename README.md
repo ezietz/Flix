@@ -48,7 +48,8 @@ GIF created with [Recordit](http://recordit.co/).
 ## Notes
 
 Describe any challenges encountered while building the app.
-At first, it was hard for me to understand the segue that allows the viewer to see the movie trailer (once the user clicks the poster), but after reading the articles and discussing it with my pod, I was able to finally understand it and make it work!
+
+- At first, it was hard for me to understand the segue that allows the viewer to see the movie trailer (once the user clicks the poster), but after reading the articles and discussing it with my pod, I was able to finally understand it and make it work!
 
 ## Credits
 
